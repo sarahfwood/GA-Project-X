@@ -11,6 +11,6 @@ class Images extends React.Component {
   }
 
   componentDidMount() {
-    
+
   }
-}
+} 
