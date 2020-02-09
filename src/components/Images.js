@@ -1,6 +1,8 @@
 import React from 'react'
 import axios from 'axios'
 
+import ImageCard from './ImageCard'
+
 class Images extends React.Component {
 
   constructor() {

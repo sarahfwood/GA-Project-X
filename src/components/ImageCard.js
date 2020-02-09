@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 const ImageCard = ({ image }) => (
   <div>
-    <img src={image.image}/>
-  </div>
-  <div>
+    <figure>
+      <img src={image.image}/>
+    </figure>
     <Link to={`/images/${image._id}`}>{image.name}</Link>
   </div>
 )
