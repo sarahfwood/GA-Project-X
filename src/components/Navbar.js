@@ -13,7 +13,7 @@ class Navbar extends React.Component {
   toggleNavbar() {
     this.setState({  isOpen: !this.state.isOpen })
   }
-
+ 
   componentDidUpdate(prevProps) {
     if (this.props.location.pathname !== prevProps.location.pathname) {
       this.setState({ isOpen: false })
@@ -22,7 +22,12 @@ class Navbar extends React.Component {
 
   render () {
     return <div>
-      <Link to="/">Photobook</Link>
+      <div>
+        <Link to="/">Photobook</Link>
+      </div>
+      <div>
+        <Link to="/images">Images</Link>
+      </div>
     </div>
   }
 }
