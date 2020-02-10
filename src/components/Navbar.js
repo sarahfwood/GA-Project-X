@@ -23,7 +23,7 @@ class Navbar extends React.Component {
   render () {
     return <div>
       <div>
-        <Link to="/">Photobook</Link>
+        <Link to="/">Home</Link>
       </div>
       <div>
         <Link to="/images">Images</Link>
