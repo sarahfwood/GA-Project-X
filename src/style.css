@@ -1,4 +1,13 @@
 body {
+  font: 100% Helvetica, sans-serif;
+  color: #2d547b;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,8 +17,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font: 100% Helvetica, sans-serif;
-  color: #2d547b;
   height: 100vh;
 }
 /*# sourceMappingURL=style.css.map */
