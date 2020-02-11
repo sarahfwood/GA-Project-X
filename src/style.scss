@@ -1,7 +1,16 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #2d547b;
 
+@mixin flexenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
+  @include flexenter();
+  
   font: 100% $font-stack;
   color: $primary-color;
+  height: 100vh;
 }
