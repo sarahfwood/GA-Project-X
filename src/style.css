@@ -1,13 +1,19 @@
 body {
   font: 100% Helvetica, sans-serif;
-  color: #2d547b;
+  background: -webkit-gradient(linear, left bottom, left top, from(#22c1c3), to(#fdbb2d));
+  background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
 }
 
 h1 {
   font-size: 50px;
+  color: #003366;
 }
 
-.home {
+h3 {
+  color: #547494;
+}
+
+.Home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

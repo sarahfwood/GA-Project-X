@@ -1,22 +1,31 @@
 $font-stack: Helvetica, sans-serif;
-$primary-color: #2d547b;
+$primary-color: #003366;
+$secondary-color: #547494;
+$background-color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 
 @mixin flexCenter {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  
 }
 
 body {
   font: 100% $font-stack;
-  color: $primary-color;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  
 }
 
 h1 {
   font-size: 50px;
+  color: $primary-color;
 }
 
-.home {
+h3 {
+  color: $secondary-color;
+}
+
+.Home {
   @include flexCenter();
+  height: 100vh;
 }
