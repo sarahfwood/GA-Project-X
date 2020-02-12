@@ -3,18 +3,9 @@ body {
   background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
 }
 
-h1 {
-  font: 100% "Julius Sans One", sans-serif;
-  font-size: 50px;
-  color: #003366;
-}
-
-h3 {
-  font: 100% "Julius Sans One", sans-serif;
-  color: #003366;
-}
-
 .Home {
+  font: 100% "Julius Sans One", sans-serif;
+  color: #003366;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,5 +16,14 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
+}
+
+.Home h1 {
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #003366;
 }
 /*# sourceMappingURL=style.css.map */
