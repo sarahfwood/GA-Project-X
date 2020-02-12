@@ -22,7 +22,7 @@ class Navbar extends React.Component {
 
   render () {
     return <div>
-      <div>
+      <div className="burger-icon">
         <Link to="/">Home</Link>
       </div>
       <div>
