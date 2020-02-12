@@ -2,6 +2,11 @@ $font-stack: Helvetica, sans-serif;
 $primary-color: #003366;
 $secondary-color: #547494;
 $background-color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+$font-family-one: 'Pacifico', cursive;
+$font-family-two: 'Julius Sans One', sans-serif;
+$font-family-three: 'Antic Slab', serif;
+$font-family-four: 'Cinzel Decorative', cursive;
+$font-family-five: 'Bungee Inline', cursive;
 
 @mixin flexCenter {
   display: flex;
@@ -11,18 +16,20 @@ $background-color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,
 }
 
 body {
-  font: 100% $font-stack;
+  // font: 100% $font-stack;
   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
   
 }
 
 h1 {
+  font: 100% $font-family-two;
   font-size: 50px;
   color: $primary-color;
 }
 
 h3 {
-  color: $secondary-color;
+  font: 100% $font-family-two;
+  color: $primary-color;
 }
 
 .Home {

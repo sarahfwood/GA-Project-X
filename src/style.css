@@ -1,16 +1,17 @@
 body {
-  font: 100% Helvetica, sans-serif;
   background: -webkit-gradient(linear, left bottom, left top, from(#22c1c3), to(#fdbb2d));
   background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
 }
 
 h1 {
+  font: 100% "Julius Sans One", sans-serif;
   font-size: 50px;
   color: #003366;
 }
 
 h3 {
-  color: #547494;
+  font: 100% "Julius Sans One", sans-serif;
+  color: #003366;
 }
 
 .Home {
