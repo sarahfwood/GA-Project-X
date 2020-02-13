@@ -33,6 +33,7 @@
     "react": "^16.7.0",
     "react-animated-text": "^0.1.4",
     "react-dom": "^16.7.0",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "sass-burger": "^1.3.1"
   }
 }

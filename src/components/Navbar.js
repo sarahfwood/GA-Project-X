@@ -22,12 +22,12 @@ class Navbar extends React.Component {
 
   render () {
     return <div>
-      <div className="burger-icon">
-        <Link to="/">Home</Link>
-      </div>
-      <div>
-        <Link to="/images">Images</Link>
-      </div>
+      <a href="#" className="menu-button" id="menuButton">
+        <span className="burger-icon">
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/images">Images</Link></li>
+        </span>
+      </a>
     </div>
   }
 }
