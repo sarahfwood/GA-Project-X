@@ -24,8 +24,10 @@ class Navbar extends React.Component {
     return <div>
       <a href="#" className="menu-button" id="menuButton">
         <span className="burger-icon">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/images">Images</Link></li>
+          <div>
+            <Link to="/">Home</Link>
+            <Link to="/images">Images</Link>
+          </div>
         </span>
       </a>
     </div>
