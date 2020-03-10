@@ -1,22 +1,22 @@
-import React from 'react'
-import {  Link, withRouter } from 'react-router-dom'
+import React from 'react';
+import {  Link, withRouter } from 'react-router-dom';
 
 class Navbar extends React.Component {
 
   constructor() {
-    super()
+    super();
     this.state = {
       isOpen: false
-    }
+    };
   }
 
   toggleNavbar() {
-    this.setState({  isOpen: !this.state.isOpen })
+    this.setState({  isOpen: !this.state.isOpen });
   }
  
   componentDidUpdate(prevProps) {
     if (this.props.location.pathname !== prevProps.location.pathname) {
-      this.setState({ isOpen: false })
+      this.setState({ isOpen: false });
     }
   }
 
@@ -26,12 +26,12 @@ class Navbar extends React.Component {
         <span className="burger-icon">
           <div>
             <Link to="/">Home</Link>
-            <Link to="/images">Images</Link>
+            <Link to="/gallery">Gallery</Link>
           </div>
         </span>
       </a>
-    </div>
+    </div>;
   }
 }
 
-export default withRouter(Navbar)
+export default withRouter(Navbar);
