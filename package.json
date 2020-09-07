@@ -28,6 +28,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
+    "elliptic": "^6.5.3",
     "gh-pages": "^2.1.1",
     "http-proxy": "^1.18.1",
     "lodash.update": "^4.10.2",
