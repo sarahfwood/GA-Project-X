@@ -22,15 +22,16 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.46.0",
-    "webpack-cli": "^3.2.1",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.6.0",
     "elliptic": "^6.5.3",
     "gh-pages": "^2.1.1",
     "http-proxy": "^1.18.1",
+    "jquery": "^3.5.1",
     "lodash.update": "^4.10.2",
     "moment": "^2.24.0",
     "node-forge": "^0.10.0",
